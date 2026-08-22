@@ -42,3 +42,6 @@ The main feature of Late Night Watchers will be a simple algorithm that returns 
 ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
+### Credits
+Badges lovingly borrowed from [markdown-badges](https://ileriayo.github.io/markdown-badges/)
