@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import mobile from "is-mobile"
 // Styling imports
 import "../styles/login.css";
-// Components
+// Images
 import Logo from "../components/Logo";
+
 
 
 
@@ -14,28 +15,24 @@ let mobileSite: string = "You are on Mobile";
 // Change to different page.tsx instead of strings next time.
 
 
-function Login() {
+function Welcome() {
   return (
     <main>
-
+      
       <Logo />
       
       <div className="mainForm">
-        <h2>Log in</h2>
-        
-        <form>
-          <input type="text" id="jokeTitle" placeholder="Email or Username" required />
-          <input type="password" id="password" placeholder="Password" required />
-          <button type="submit">Log in</button>
-        </form>
-        
-        <h2>Don't have a user?</h2>
-        <Link to="/register"> Register now! </Link>
-
+        <h1>Welcome to Late Night Watchers</h1>
+        <p>Made to help your group find the perfect next watch</p>
+        <h2>Want to know how it works?</h2>
+        <p>Check out our {<Link to="/tutorial">how to use</Link>} page</p>
+        <h2>Ready to get started?</h2>
+        <Link to="/login">Log in now!</Link>
       </div>
+
 
     </main>
   )
 }
 
-export default Login
+export default Welcome

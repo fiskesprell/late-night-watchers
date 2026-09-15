@@ -44,4 +44,11 @@ The main feature of Late Night Watchers will be a simple algorithm that returns 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 ### Credits
+
 Badges lovingly borrowed from [markdown-badges](https://ileriayo.github.io/markdown-badges/)
+
+Sun logo is copied from [Rohit Singhal](https://www.figma.com/@0xrohitsinghal)'s [Dummy Logo Pack](https://www.figma.com/community/file/1142119598485057563/dummy-logo-pack) -  Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+...And modified the following ways: 
+
+1. Design was copied and made into an SVG-file.
+2. The orange color has been changed to red.

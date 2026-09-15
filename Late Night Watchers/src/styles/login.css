@@ -1,0 +1,65 @@
+@import "colors.css";
+
+/* Text */
+
+h1{
+    color: var(--alice-blue);
+}
+
+h2{
+    color: var(--alice-blue);
+}
+
+p{
+    color: var(--alice-blue);
+}
+
+/* General */
+
+body {
+    display: flex;
+    background-color: var(--midnight-violet);
+    justify-content: center;
+    margin-top: 20%;
+}
+
+/* Logo section */
+.logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 15%;
+}
+
+.logo img {
+    display: block;
+    width: clamp(10rem, 20vw, 140px);
+    height: auto;
+}
+
+.logo p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  margin: 0;
+}
+
+
+/* Main Form section */
+.mainForm {
+    background-color: var(--space-indigo);
+    border-radius: 25px;
+    margin: 10%;
+}
+
+input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+}
+

@@ -6,8 +6,8 @@ function Register() {
       <h1>Register</h1>
      
 
-      <Link to="/movie-finder">
-        Go to movie finder
+      <Link to="/home">
+        Go to homepage
       </Link>
 
     </>
