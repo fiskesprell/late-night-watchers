@@ -1,10 +1,9 @@
-import LogoImage from "../assets/retro-sun.svg";
+import LogoImage from "../assets/logo.svg";
 
 function Logo() {
   return (
       <div className="logo">
-        <img src={LogoImage} alt="" />
-        <p>Late Night Watchers</p>
+        <img src={LogoImage} alt="Late Night Watchers text on top of logo featuring an image of a sunset." />
       </div>
     )
 }

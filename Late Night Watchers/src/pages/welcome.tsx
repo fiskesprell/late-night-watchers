@@ -23,11 +23,11 @@ function Welcome() {
       
       <div className="mainForm">
         <h1>Welcome to Late Night Watchers</h1>
-        <p>Made to help your group find the perfect next watch</p>
+        <p>Made to help <i>your</i> group find the perfect next watch</p>
         <h2>Want to know how it works?</h2>
         <p>Check out our {<Link to="/tutorial">how to use</Link>} page</p>
         <h2>Ready to get started?</h2>
-        <Link to="/login">Log in now!</Link>
+        <Link to="/login" className="login-btn">Log in now!</Link>
       </div>
 
 

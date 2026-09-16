@@ -21,7 +21,7 @@ function Login() {
       <Logo />
       
       <div className="mainForm">
-        <h2>Log in</h2>
+        <h1>Log in</h1>
         
         <form>
           <input type="text" id="jokeTitle" placeholder="Email or Username" required />
@@ -30,7 +30,7 @@ function Login() {
         </form>
         
         <h2>Don't have a user?</h2>
-        <Link to="/register"> Register now! </Link>
+        <Link to="/register" className="register-btn"> Register now! </Link>
 
       </div>
 

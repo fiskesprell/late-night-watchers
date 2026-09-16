@@ -1,4 +1,8 @@
 @import "colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 /* Text */
 
@@ -29,37 +33,85 @@ body {
   display: flex;
   justify-content: center;
   width: fit-content;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 15%;
 }
 
 .logo img {
-    display: block;
-    width: clamp(10rem, 20vw, 140px);
+    width: 90%;
     height: auto;
-}
-
-.logo p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  margin: 0;
 }
 
 
 /* Main Form section */
 .mainForm {
+    display: flex;
+    flex-direction: column;
     background-color: var(--space-indigo);
     border-radius: 25px;
     margin: 10%;
 }
 
+.mainForm h1 {
+    align-self: center;
+    text-decoration: underline var(--strawberry-red);
+    
+    font-size: clamp(1.4rem, 6vw, 2.3rem);
+    font-family: "Instrument Serif";
+    font-weight: 100;
+}
+
+.mainForm h2 {
+    font-family: "Instrument Serif";
+    font-size: clamp(1.1rem, 5vw, 2rem);
+    font-weight: 150;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-kerning: auto;
+}
+
+.mainForm p {
+    font-family: roboto;
+    font-size: clamp(0.9rem, 4vw, 1.5rem);
+    /* margin values follow: top, right, bottom, left */
+    margin: 0% 8% 2% 8%; 
+    font-weight: 150;
+}
+
+.mainForm a {
+    color: var(--carrot-orange);
+    text-decoration: none;
+    font-family: roboto;
+    margin-top: 0%;
+    font-weight: 150;
+    margin-bottom: 8%;
+    font-size: clamp(0.9rem, 4vw, 1.5rem);
+}
+
+.login-btn {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.register-btn {
+    margin-left: 8%;
+}
+
+button {
+    padding: 0;
+    margin-left: 8%;
+    font-family: roboto;
+    background: none;
+    border: none;
+    color: var(--carrot-orange);
+    font-size: clamp(0.9rem, 4vw, 1.5rem);
+    font-weight: 150;
+}
+
 input {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-bottom: 8%;
 }
 

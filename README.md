@@ -50,5 +50,5 @@ Badges lovingly borrowed from [markdown-badges](https://ileriayo.github.io/markd
 Sun logo is copied from [Rohit Singhal](https://www.figma.com/@0xrohitsinghal)'s [Dummy Logo Pack](https://www.figma.com/community/file/1142119598485057563/dummy-logo-pack) -  Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 ...And modified the following ways: 
 
-1. Design was copied and made into an SVG-file.
+1. Design was copied using AI and made into an SVG-file. For some reason the AI also decided it needed mountains.
 2. The orange color has been changed to red.
