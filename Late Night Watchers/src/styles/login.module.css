@@ -1,50 +1,37 @@
-@import "colors.css";
+@import "global.css";
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
-/* Text */
-
-h1{
-    color: var(--alice-blue);
-}
-
-h2{
-    color: var(--alice-blue);
-}
-
-p{
-    color: var(--alice-blue);
-}
-
 /* General */
 
-body {
+.page {
     display: flex;
-    background-color: var(--midnight-violet);
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20%;
 }
 
 /* Logo section */
 .logo {
-  position: relative;
-  display: flex;
-  justify-content: center;
   width: fit-content;
   margin: 0;
-  margin-bottom: 15%;
 }
 
 .logo img {
+    display: block;
     width: 90%;
     height: auto;
+    margin: 0 auto;
+}
+
+.page h1, h2, p {
+    color: var(--alice-blue);
 }
 
 
-/* Main Form section */
-.mainForm {
+/* Main section */
+.contentWrapper {
     display: flex;
     flex-direction: column;
     background-color: var(--space-indigo);
@@ -52,7 +39,7 @@ body {
     margin: 10%;
 }
 
-.mainForm h1 {
+.contentWrapper h1 {
     align-self: center;
     text-decoration: underline var(--strawberry-red);
     
@@ -61,7 +48,7 @@ body {
     font-weight: 100;
 }
 
-.mainForm h2 {
+.contentWrapper h2 {
     font-family: "Instrument Serif";
     font-size: clamp(1.1rem, 5vw, 2rem);
     font-weight: 150;
@@ -70,7 +57,7 @@ body {
     font-kerning: auto;
 }
 
-.mainForm p {
+.contentWrapper p {
     font-family: roboto;
     font-size: clamp(0.9rem, 4vw, 1.5rem);
     /* margin values follow: top, right, bottom, left */
@@ -78,7 +65,7 @@ body {
     font-weight: 150;
 }
 
-.mainForm a {
+.contentWrapper a {
     color: var(--carrot-orange);
     text-decoration: none;
     font-family: roboto;
@@ -88,12 +75,12 @@ body {
     font-size: clamp(0.9rem, 4vw, 1.5rem);
 }
 
-.login-btn {
+.loginBtn {
     margin-left: 8%;
     margin-right: 8%;
 }
 
-.register-btn {
+.registerBtn {
     margin-left: 8%;
 }
 

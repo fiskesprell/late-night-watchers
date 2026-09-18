@@ -1,14 +1,18 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import style from "../styles/home.module.css";
 
 function Home() {
   return (
-        <>
-            <h1>Home!</h1>
-            <Link to="/movie-finder">
-                Go to movie finder
-            </Link>
-    
-        </>
+    <div className={style.page}>
+        <header>
+            <h1>hi</h1>
+        </header>
+
+        <main>
+
+        </main>
+
+    </div>
     )
 }
 

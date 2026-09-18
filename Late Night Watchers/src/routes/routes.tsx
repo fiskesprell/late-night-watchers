@@ -7,6 +7,16 @@ import MovieFinder from "../pages/movie-finder"
 import Register from "../pages/register"
 import Welcome from "../pages/welcome"
 
+/* Todo: switch between Mobile and Desktop versions of site
+    Remember to:
+        import mobile from "is-mobile"
+        example use:
+        let desktopSite: string = "You are on Desktop";
+        let mobileSite: string = "You are on Mobile";
+        <p>{mobile() ? (mobileSite) : (desktopSite)}</p> for changing views
+        But change to different page.tsx instead of strings.
+*/
+
 function LateNightWatcherRoutes() {
     return (
         <Routes>

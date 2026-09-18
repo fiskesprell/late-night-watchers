@@ -1,0 +1,21 @@
+@import "global.css";
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.page {
+    margin: 0;
+}
+
+.page h1, h2, p {
+    color: var(--alice-blue);
+}
+
+header {
+    height: 20%;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+

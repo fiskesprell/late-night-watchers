@@ -1,36 +1,31 @@
 // NPM imports
 import { Link } from "react-router-dom";
-import mobile from "is-mobile"
 // Styling imports
-import "../styles/login.css";
+import styles from "../styles/login.module.css";
 // Components
-import Logo from "../components/Logo";
-
-
-
-let desktopSite: string = "You are on Desktop";
-let mobileSite: string = "You are on Mobile";
-// Remember this: <p>{mobile() ? (mobileSite) : (desktopSite)}</p> for changing views
-// Change to different page.tsx instead of strings next time.
+import LogoImage from "../assets/logo.svg";
 
 
 function Login() {
   return (
-    <main>
+    <main className={styles.page}>
 
-      <Logo />
+      <div className={styles.logo}>
+        <img src={LogoImage} alt="Late Night Watchers text on top of logo featuring an image of a sunset." />
+      </div>
       
-      <div className="mainForm">
+      <div className={styles.contentWrapper}>
         <h1>Log in</h1>
         
         <form>
           <input type="text" id="jokeTitle" placeholder="Email or Username" required />
           <input type="password" id="password" placeholder="Password" required />
-          <button type="submit">Log in</button>
+          {/* <button type="submit">Log in</button> */}
+          <Link to="/home" className={styles.registerBtn}>Log in</Link>
         </form>
         
         <h2>Don't have a user?</h2>
-        <Link to="/register" className="register-btn"> Register now! </Link>
+        <Link to="/register" className={styles.registerBtn}> Register now! </Link>
 
       </div>
 

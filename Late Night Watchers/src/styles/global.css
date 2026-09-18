@@ -4,4 +4,10 @@
     --carrot-orange: #F49D37;
     --space-indigo: #221E3B;
     --alice-blue: #DBE4EE;
+
+    background-color: var(--midnight-violet);
+}
+
+body {
+    margin: 0;
 }

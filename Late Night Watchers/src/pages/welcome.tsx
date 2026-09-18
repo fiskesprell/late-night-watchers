@@ -1,33 +1,30 @@
 // NPM imports
 import { Link } from "react-router-dom";
-import mobile from "is-mobile"
 // Styling imports
-import "../styles/login.css";
+import styles from "../styles/welcome.module.css";
 // Images
-import Logo from "../components/Logo";
+import LogoImage from "../assets/logo.svg";
 
 
 
 
-let desktopSite: string = "You are on Desktop";
-let mobileSite: string = "You are on Mobile";
-// Remember this: <p>{mobile() ? (mobileSite) : (desktopSite)}</p> for changing views
-// Change to different page.tsx instead of strings next time.
 
 
 function Welcome() {
   return (
-    <main>
+    <main className={styles.page}>
       
-      <Logo />
+      <div className={styles.logo}>
+        <img src={LogoImage} alt="Late Night Watchers text on top of logo featuring an image of a sunset." />
+      </div>
       
-      <div className="mainForm">
+      <div className={styles.contentWrapper}>
         <h1>Welcome to Late Night Watchers</h1>
         <p>Made to help <i>your</i> group find the perfect next watch</p>
         <h2>Want to know how it works?</h2>
         <p>Check out our {<Link to="/tutorial">how to use</Link>} page</p>
         <h2>Ready to get started?</h2>
-        <Link to="/login" className="login-btn">Log in now!</Link>
+        <Link to="/login" className={styles.loginBtn}>Log in now!</Link>
       </div>
 
 
